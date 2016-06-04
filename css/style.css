@@ -1,0 +1,619 @@
+/**css样式重置**/
+body,div,ul,li,dl,dd,dt,p,h3,h4,h5,h6,a,span,img,i,em{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+img{
+	border: 0 none;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	*zoom:.;
+}
+.clearfix:after{
+	content: ".";
+	clear: both;
+	overflow: hidden;
+	display: block;
+	height: 0;
+	font-size: 0;
+}
+body{
+	background: url(../images/mainBg.jpg) no-repeat top #f4e033;
+	padding-top: 426px;
+	border-top: #f56293 1px solid;
+	color: #585858;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+/**主要部分**/
+#top{
+	padding-bottom: 229px;
+}
+.topCenter{
+	margin: 0 auto;
+	width: 990px;
+	height: 70px;
+}
+.topLeft,.topRight{
+	background: url(../images/womanORman.jpg) no-repeat;
+	float: left;
+	width: 495px;
+	height: 100%;
+}
+.topLeft{
+	background-position: top left;
+}
+.topRight{
+	background-position: top right;
+}
+.leftArrow,.rightArrow{
+	background: url(../images/arrow.png) no-repeat;
+	margin: 17px 0 0 357px;
+	height: 42px;
+	width: 42px;
+}
+.leftArrow{
+	background-position: 0 -0px;
+}
+.rightArrow{
+	background-position: 0 -84px;
+}
+.topLeft:hover .leftArrow{
+	background-position: 0 -42px;
+}
+.topRight:hover .rightArrow{
+	background-position: 0 -126px;
+}
+#slide{
+	position: relative;
+	margin: 19px auto 0;
+	width: 990px;
+	height: 428px;
+	overflow: hidden;
+}
+#slide dl{
+	position: absolute;
+	overflow: hidden;
+	width: 798px;
+	height: 100%;
+	transition: left 0.5s;
+}
+#slide dl dt{
+	position: absolute;
+	background: url(../images/slideDD.jpg) no-repeat;
+	width: 48px;
+	height: 100%;
+	cursor: pointer;
+	text-indent: -99em;
+}
+#slide dl dd{
+	position: absolute;
+	background: url(../images/slideBg.jpg) no-repeat;
+	padding: 4px 78px 5px 9px;
+	width: 663px;
+	height: 419px;
+	top: 0;
+	left: 48px;
+}
+.leftShoe{
+	position: absolute;
+}
+.leftShoe a{
+	float: left;
+}
+.leftShoe div{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-right: #000 8px solid;
+	border-top: #fff 5px solid;
+	border-bottom: #fff 5px solid;
+	text-indent: -99em;
+	top: 9px;
+	left: 171px;
+}
+.leftShoe p{
+	float: left;
+	margin: 3px 0 0 15px;
+	width: 134px;
+	line-height: 20px;
+}
+.dowmShoe{
+	position: absolute;
+	width: 170px;
+}
+.dowmShoe p{
+	width: 145px;
+	line-height: 20px;
+}
+.dowmShoe div{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: #000 8px solid;
+	border-left: #fff 5px solid;
+	border-right: #fff 5px solid;
+	text-indent: -99em;
+	top: 48px;
+	left: 124px;
+}
+.dowmShoe a{
+	display: block;
+}
+.upShoe{
+	position: absolute;
+	width: 170px;
+}
+.upShoe p{
+	margin-left: 19px;
+	width: 131px;
+	line-height: 20px;
+}
+.upShoe div{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-bottom: #000 8px solid;
+	border-left: #fff 5px solid;
+	border-right: #fff 5px solid;
+	text-indent: -99em;
+	top: 181px;
+	left: 4px;
+}
+.upShoe a{
+	display: block;
+}
+.one{
+	top: 4px;
+	left: 9px;
+}
+.two{
+	top: 4;
+	left: 359px;
+}
+.three{
+	bottom: 5px;
+	left: 9px;
+}
+.four{
+	bottom: 5px;
+	left: 359px;
+}
+.five{
+	top: 141px;
+	left: 182px;
+}
+.blingInf{
+	position: absolute;
+	width: 137px;
+	line-height: 22px;
+	font-size: 16px;
+	color: #d3b0ac;
+	bottom: 11px;
+	right: 74px;
+}
+.blingInf span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 24px;
+	color: #111111;
+}
+#womenDress{
+	background: #e04ede;
+	padding-top: 1px;
+}
+.autumnNew{
+	margin: 0 auto;
+	width: 990px;
+}
+#womenDress .autumnNew{
+	margin-top: -222px;
+}
+.autumnNew .title{
+	margin-left: 319px;
+	width: 348px;
+	height: 153px;
+	text-indent: -99em;
+}
+#womenDress .autumnNew .title{
+	background: url(../images/sprite.jpg) no-repeat;
+}
+.ad{
+	display: block;
+	height: 165px;
+}
+#womenDress .autumnNew .ad{
+	margin-top: -49px;
+}
+.topLi{
+	overflow: hidden;
+	margin: 22px -10px 0 0;
+	width: 1000px;
+}
+.topLi li{
+	position: relative;
+	float: left;
+	background: #fff;
+	margin: 0 10px 10px 0;
+	width: 190px;
+	height: 330px;
+}
+.topLi li .goods{
+	display: block;
+	height: 220px;
+}
+.topLi li .logo{
+	display: block;
+	margin: 11px auto 0;
+	width: 57px;
+}
+.topLi li p{
+	margin: 0 auto;
+	width: 134px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 15px;
+	color: #2d0505;
+}
+.topLi li .ticket{
+	display: block;
+	margin: 0 auto;
+	width: 172px;
+	height: 33px;
+	text-indent: -99em;
+}
+.topLi li .hover{
+	position: absolute;
+	background: rgba(0,0,0,0.2);
+	width: 190px;
+	height: 330px;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+.topLi li:hover .hover{
+	display: block;
+}
+.topLi li:hover .ticket{
+	position: relative;
+	z-index: 2;
+}
+#womenDress .autumnNew li .ticket{
+	background: url(../images/sprite.jpg) no-repeat 0 -1335px;
+}
+#womenDress .autumnNew li:hover .ticket{
+	background: url(../images/sprite.jpg) no-repeat 0 -1368px;
+}
+.juHuaSuan{
+	width: 990px;
+}
+#womenDress .juHuaSuan{
+	margin: 8px auto 0;
+}
+#womenDress .juHuaSuan .title{
+	background: url(../images/sprite.jpg) no-repeat 0 -153px;
+}
+.juHuaSuan .title{
+	margin: 0 auto;
+	width: 277px;
+	height: 114px;
+	text-indent: -99em;
+}
+.juHuaSuan .other{
+	overflow: hidden;
+	margin: 11px auto 0;
+	width: 999px;
+}
+.juHuaSuan li{
+	float: left;
+	background: #fff;
+	margin-right: 7px;
+	width: 326px;
+	height: 242px;
+}
+#beauty{
+	margin: 5px auto 0;
+	width: 990px;
+}
+.topTitle{
+	margin: 0 auto;
+	width: 348px;
+	height: 151px;
+	text-indent: -99em;
+}
+#beauty .topTitle{
+	background: url(../images/sprite.jpg) no-repeat 0 -267px;
+}
+.mainTitle span{
+	float: left;
+	font-size: 30px;
+	font-weight: 100;
+}
+#beauty .mainTitle span{
+	color: #f4e033;
+}
+.mainTitle div{
+	float: left;
+	margin: 0 78px;
+	width: 192px;
+	height: 39px;
+	text-indent: -99em;
+}
+.main{
+	margin:20px -10px 0 0;
+	width: 1000px;
+}
+.main li{
+	float: left;
+	background: #fff;
+	margin:0 10px 10px 0;
+	width: 190px;
+	height: 355px;
+}
+.main .store{
+	display: block;
+	margin: 6px 0 0 9px;
+	height: 20px;
+	line-height: 20px;
+	width: 135px;
+	font-size: 18px;
+	color: #f0196a;
+}
+.main .storeInf{
+	margin-left: 9px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #999999;
+}
+.main .goods{
+	display: block;
+	margin-top: 1px;
+	height: 190px;
+}
+.main .goodsInf{
+	margin: 1px 0 0 9px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #595858;
+}
+.main .goodsType{
+	margin-left: 9px;
+	height: 21px;
+	line-height: 21px;
+	font-size: 15px;
+	color: #595858;
+}
+.main .price{
+	margin: 5px 0 0 9px;
+	width: 169px;
+	height: 25px;
+	font-size: 14px;
+	color: #f0196a;
+}
+.main .price i{
+	float: left;
+	margin: 7px 0 0 -3px;
+	height: 18px;
+	line-height: 18px;
+	width: 14px;
+	font-style: normal;
+}
+.main .price span{
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	font-size: 26px;
+}
+.main .price em{
+	float: right;
+	margin-top: 7px;
+	height: 18px;
+	line-height: 18px;
+	color: #9b9b9b;
+	font-style: normal;
+	text-decoration: line-through;
+}
+.main .ticket{
+	display: block;
+	margin: 6px 0 0 9px;
+	width: 169px;
+	height: 36px;
+}
+#beauty .main .ticket{
+	background: url(../images/sprite.jpg) no-repeat 0 -1401px;
+}
+.main li:hover{
+	border: #e9d83f 2px solid;
+	width: 186px;
+	height: 351px;
+}
+.main li:hover .goods img{
+	width: 186px;
+}
+#Wrelax{
+	margin-top: 19px;
+}
+#Wrelax .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -418px;
+}
+#lady{
+	margin-top: 44px;
+}
+#lady .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -457px;
+}
+#job{
+	margin-top: 50px;
+}
+#job .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -496px;
+}
+#sport{
+	margin-top: 50px;
+}
+#sport .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -535px;
+}
+#english{
+	margin-top: 50px;
+}
+#english .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -574px;
+}
+#Wchina{
+	margin-top: 50px;
+}
+#Wchina .mainTitle{
+	background: url(../images/sprite.jpg) no-repeat 0 -613px;
+	margin: 0 auto;
+	width: 348px;
+	height: 73px;
+	text-indent: -99em;
+}
+#Wchina .main{
+	margin-top: 30px;
+}
+#manDress{
+	background:url(../images/manTop.jpg) no-repeat top #753ac8;
+	padding: 6px 0 461px;
+}
+#manDress .autumnNew .title{
+	background: url(../images/sprite.jpg) no-repeat 0 -687px;
+}
+#manDress .autumnNew .ad{
+	margin-top: -22px;
+}
+#manDress .autumnNew li .ticket{
+	background: url(../images/sprite.jpg) no-repeat -172px -1335px;
+}
+#manDress .autumnNew li:hover .ticket{
+	background: url(../images/sprite.jpg) no-repeat -172px -1368px;
+}
+#manDress .juHuaSuan{
+	margin: 30px auto 0;
+}
+#manDress .juHuaSuan .title{
+	background: url(../images/sprite.jpg) no-repeat 0 -840px;
+}
+#demeanour{
+	margin: 18px auto 0;
+	width: 990px;
+}
+#demeanour .topTitle{
+	background: url(../images/sprite.jpg) no-repeat 0 -954px;
+}
+#demeanour  .mainTitle span{
+	color: #9d58fe;
+}
+#demeanour .main .ticket{
+	background: url(../images/sprite.jpg) no-repeat -169px -1401px;
+}
+#simple{
+	margin-top: 23px;
+}
+#simple .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -1105px;
+}
+#personal{
+	margin-top: 50px;
+}
+#personal .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -1144px;
+}
+#business{
+	margin-top: 50px;
+}
+#business .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -1183px;
+}
+#Mrelax{
+	margin-top: 50px;
+}
+#Mrelax .mainTitle div{
+	background: url(../images/sprite.jpg) no-repeat 0 -1222px;
+}
+#Mchina{
+	margin-top: 50px;
+}
+#Mchina .mainTitle{
+	background: url(../images/sprite.jpg) no-repeat 0 -1261px;
+	margin: 0 auto;
+	width: 348px;
+	height: 73px;
+	text-indent: -99em;
+}
+#Mchina .main{
+	margin-top: 20px;
+}
+#rightNav{
+	position: fixed;
+	margin-left: 517px;
+	width: 115px;
+	left: 50%;
+	top: 100px;
+}
+#rightNav .womanNav{
+	background: #e23bdf;
+	padding-bottom: 6px;
+}
+#rightNav dt a{
+	display: block;
+	margin-left: -2px;
+	width: 119px;
+	height: 36px;
+	text-indent: -99em;
+}
+.womanNav dt a{
+	background: url(../images/sprite.jpg) no-repeat 0 -1437px;
+}
+#rightNav dd a{
+	display: block;
+	margin: 0 auto 2px;
+	height: 23px;
+	line-height: 23px;
+	width: 115px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	word-spacing: 6px;
+}
+#rightNav span{
+	display: block;
+	margin: 0 auto;
+	border-bottom: #f0a9ee 1px dashed;
+	width: 79px;
+	height: 0;
+	text-indent: -99em;
+}
+#rightNav .manNav{
+	background: #6e2ccb;
+	padding-bottom: 4px;
+}
+.manNav dt a{
+	background: url(../images/sprite.jpg) no-repeat -118px -1437px;
+	margin-bottom: 9px;
+}
+.toJuHuaSuan{
+	display: block;
+	background: #ff2266;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.toTop{
+	display: block;
+	background: url(../images/sprite.jpg) no-repeat -233px -1220px;
+	height: 41px;
+}
