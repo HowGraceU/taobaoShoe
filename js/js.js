@@ -34,10 +34,12 @@ timer=null;
 rightNav.onclick=function(en){
 	oEvent = en || window.event;
 	oTarget = oEvent.target || oEvent.srcElement;
-	if(oTarget.id){
-		toTopFun();
-	}else{
-		clearTimeout(timer);
+	if(oTarget.tagName === 'A'){
+		if(oTarget.id){
+			toTopFun();
+		}else{
+			clearTimeout(timer);
+		}
 	}
 }
 		// for (var i = 0; i < myDl.length; i++) {
