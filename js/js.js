@@ -18,6 +18,28 @@ for (var i = 0; i < myDl.length; i++) {
 		}
 	}
 }
+
+function toTopFun(){
+	var scroll=document.body.scrollTop+document.documentElement.scrollTop,
+	cha=scroll/10;
+	if(scroll>0){
+		document.body.scrollTop-=cha;
+		document.documentElement.scrollTop-=cha;
+		timer=setTimeout(toTopFun,30);
+	}
+}
+
+var rightNav=document.getElementById("rightNav"),
+timer=null;
+rightNav.onclick=function(en){
+	oEvent = en || window.event;
+	oTarget = oEvent.target || oEvent.srcElement;
+	if(oTarget.id){
+		toTopFun();
+	}else{
+		clearTimeout(timer);
+	}
+}
 		// for (var i = 0; i < myDl.length; i++) {
 		// 	if(i<=this.index){
 		// 		myDl[i].style.left=i*myDl[i].getElementsByTagName('dt')[0].offsetWidth+"px";
